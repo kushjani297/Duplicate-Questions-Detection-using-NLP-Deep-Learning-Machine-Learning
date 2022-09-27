@@ -7,7 +7,7 @@ Duplicate question detection is a highly serious NLP issue. Two papers that are 
 ## Dataset
 The dataset we'll use is a Quora dataset of duplicate question pairs. Six columns, including id, question1, question2, pair, and not, make up the dataset. The dataset has about 400,000 rows in total. This dataset was obtained from Kaggle, and it contains sufficient data and is completely labeled. If there are duplicate questions, the duplicate columns will either have a value of 1 or 0, depending on whether there are duplicate questions.
 ## Methodology & Evaluation Plan
-         ![image](https://user-images.githubusercontent.com/52672685/192441046-5d4206b0-0f05-4eed-9e57-56a6a080b898.png)
+![image](https://user-images.githubusercontent.com/52672685/192441046-5d4206b0-0f05-4eed-9e57-56a6a080b898.png)
 
 RNN will be the primary tool we employ for this project. Recurrent neural networks will be used to transform our two sets of questions into hidden layers. Then, using some linear transformations, we will determine whether or not the questions are duplicates of one another. While the form of our project will remain largely the same, we intend to try adding additional pairs of questions by combining and enhancing our dataset as well as adding and producing more non-duplicate pairs of questions by editing the lines of the existing dataset. We anticipate having enough data to divide into a training set and a testing set since our dataset is labeled.Additionally, we intend to test the success of our models on a pre-made set in order to assess their efficacy. Tables with the success rate of each method we employ will be used to display the results.
 ## References
