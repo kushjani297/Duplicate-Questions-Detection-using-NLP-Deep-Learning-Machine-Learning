@@ -13,8 +13,11 @@ RNN will be the primary tool we employ for this project. Recurrent neural networ
 ## References
 [1] Dasha Bogdanova, Cicero dos Santos, Luciano Barbosa, and Bianca Zadrozny; ”Detecting semantically equivalent questions in
 online user forums.”, 2015.
+
 [2] Zhiguo Wang, Wael Hamza, and Radu Floria;”Bilateral multi-perspective matching for natural language sentences”,2017.
+
 [3] Zihan Chen, Hongho Zhang, Xiaoji Zhang, Leqi Zhao; ”A paraphrase and semantic similarity detection system for user generated
 short-text content on microblogs”,2016.
+
 [4] Image reference form the link: https://towardsdatascience.com/understanding-recurrent-neural-networks-the-prefered-neuralnetwork-
 for-time-series-data-7d856c21b759
